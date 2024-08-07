@@ -1,3 +1,33 @@
+.title {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding-right: 300px;
+    flex-wrap: wrap;
+    height: 88vh;
+    flex: 1 1 auto;
+}
+
+.button {
+    padding-right: 50px;
+    padding-top: 75px;    
+}
+
+.button #gridSize {
+    border-style: none;
+    padding: 40px 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid black;
+
+}
+
 .hover {
     background-color: red;
 }
